@@ -37,7 +37,7 @@
     color:#04201d; font-weight:800; font-size:0.85rem;
   }
   nav ul{display:flex; gap:32px; font-size:0.92rem; color:var(--text-dim);}
-  nav a:hover{color:var(--text);}
+  nav a :hover{color:var(--text);}
   nav .active{color:var(--accent); position:relative;}
   nav .active::after{
     content:''; position:absolute; left:0; right:0; bottom:-18px; height:2px; background:var(--accent);
@@ -92,10 +92,10 @@
     position:relative; z-index:2;
   }
   .image{
-    width:260px;
+    width:auto;
      height:340px; 
      object-fit: cover; 
-     border-radius:50px;
+     border-radius:40px;
   }
 
   section{padding:40px 24px;}
