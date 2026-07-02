@@ -1,2 +1,2 @@
 # my-portfolio
-this is detail profile of my resume
+ This is detail profile of my resume
